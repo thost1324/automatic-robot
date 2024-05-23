@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
 *{
     padding: 0;
     margin: 0;
@@ -7,30 +6,23 @@
     border: none;
     box-sizing:content-box;
 }
-
 img{
     width: 100%;
     display: flex;
     padding-left: 10%;
 }
-
 a{
     text-decoration: none;
 }
-
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #18181B;
 }
-
-
 .container{
     max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
 }
-
-
 header{
     position: relative;
     padding-top: 2rem;
@@ -38,41 +30,33 @@ header{
     align-items: center;
     gap: 2rem;
 }
-
 header .content h4{
     margin-bottom: 1rem;
     color: #ccc;
     font-size: 1rem;
     font-weight: 600;
 }
-
 header .content h1{
     color: #fff;
     margin-bottom: 3rem;
     font-size: 3rem;
     font-weight: 700;
     line-height: 4rem;
-
 }
-
 header .content h1 span{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
-
 header .content p{
     margin-bottom: 2rem;
     color: #fff;
 }
-
-
 video{
 display: block;
 margin: 0 auto;
     width:fit-content;
     height: 500px;
 }
-
 hr {
     display: block;
     height: 1px;
@@ -81,8 +65,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
-
 section .header{
     margin-bottom: 1rem;
     color: #fff;
@@ -90,14 +72,12 @@ section .header{
     font-size: 2.25rem;
     font-weight: 600;
 }
-
 .features{
     margin-top: 4rem;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;;
 }
-
 .features .card{
     margin-bottom: 1px;
     background-color: #27272a;
@@ -106,50 +86,37 @@ section .header{
     border-radius: 15px;
     transition: all 0.3s ease;
 }
-
 .features .card:hover{
     background-color: #323232;
     border-color: #fff;
 }
-
-
 .features .card h4{
     margin-bottom: 0.5rem;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
 }
-
 .features .card p{
     color: #fff;
 }
-
 .features .card a{
     color: #fff;
     transition: all 0.3s ease;
 }
-
-
-
-
 .pricing{
     margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-columns: fit-content(100%);
-    gap: 3rem;
+    gap: 1rem;
 }
-
 .image1 {
     margin-top: 18rem;
     display: grid;
-    height: 600px;
+    height: 650px;
     width: 550px;
     float: right;
-
 }
-
-
 .pricing .card{
     padding: 1rem 1rem;
     background-color: #27272a;
@@ -158,43 +125,32 @@ section .header{
     border-radius: 15px;
     transition: all 0.3s ease;
 }
-
 .pricing .card .content{
     flex: 1;
     margin-bottom: 1rem;
 }
-
 .pricing .card:hover{
     background-color: #323232;
     border-color: #fff;
 }
-
 .pricing .card h4{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
 }
-
-
 .pricing .card p{
     color: #fff;
     margin-bottom: 0.75rem;
 }
-
 .pricing .card p i{
     color: #ccc;
     font-size: 1.2rem;
     margin-right: 0.3rem;
 }
-
-
-
-
 footer{
     background: #3a3a3a;
     padding-top: 30px;
-
 }
 .container1{
     width: 1370px;
@@ -205,7 +161,6 @@ footer{
 }
 .footer-content{
     width: 150rem;
-
 }
 h6{
     font-size: 25px;
@@ -221,7 +176,6 @@ h6{
 }
 .footer-content ul{
    justify-content: center;
-
 }
 .social-icons{
     text-align: center;
@@ -231,7 +185,6 @@ h6{
     display: inline-block;
     text-align: center;
     padding: 5px;
-
 }
 .social-icons i{
     color: #fff;
